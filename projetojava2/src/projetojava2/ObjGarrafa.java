@@ -8,6 +8,10 @@ public class ObjGarrafa {
 		
 		System.out.println("Nome da garrafa -> " + garrafa.getNome());
 		
+		Garrafa garrafa1 = new Garrafa("amarela", "300ml", "Garrafa_Minions", 12.4);
+		
+		System.out.println("Nome garrafa -> " + garrafa1.getNome());
+		
 		
 
 	}
