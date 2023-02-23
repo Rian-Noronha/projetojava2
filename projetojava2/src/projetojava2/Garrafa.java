@@ -6,12 +6,15 @@ public class Garrafa {
 	private String volume;
 	private String nome;
 	private double preco;
-	public Garrafa(String cor, String volume, String nome, double preco) {
+	private String corTampa;
+	
+	public Garrafa(String cor, String volume, String nome, double preco, String corTampa) {
 		super();
 		this.cor = cor;
 		this.volume = volume;
 		this.nome = nome;
 		this.preco = preco;
+		this.corTampa = corTampa;
 	}
 	public String getCor() {
 		return cor;
@@ -37,6 +40,15 @@ public class Garrafa {
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
+	
+	public String getCorTampa() {
+		return this.corTampa;
+	}
+	
+	public void setCorTampa(String corTampa) {
+		this.corTampa = corTampa;
+	}
+	
 	
 	
 	
